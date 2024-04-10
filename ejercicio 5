@@ -1,0 +1,16 @@
+// EJERCICIO 5//
+#include <stdio.h>
+
+int c=-1;
+int suma;
+int main()
+{
+    do 
+        {c=c+2;
+        suma=suma+c;
+        printf("%d \n",c);}
+    while(c<=100);
+    printf("la suma de los num impares es %d",suma);
+
+    return 0;
+}
