@@ -1,0 +1,15 @@
+// EJERCICIO 6//
+#include <stdio.h>
+
+int c;
+int s;
+int main()
+{
+    printf("introdusca numero limite\n");
+    scanf("%d", &s);
+    
+    for(c=0; c<=s;c=c+1)
+        printf("%d \n", c);
+    
+    return 0;
+}
