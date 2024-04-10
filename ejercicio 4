@@ -1,0 +1,15 @@
+// EJERCICIO 4//
+#include <stdio.h>
+
+int c;
+int suma;
+int main()
+{
+    for(c=0; c<=100;c=c+1)
+        suma= suma +c;
+    printf("la suma de los 100 primeros numeros es %d", suma);
+        
+    
+
+    return 0;
+}
