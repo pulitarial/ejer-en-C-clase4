@@ -1,0 +1,15 @@
+// EJERCICIO 3//
+#include <stdio.h>
+
+int c;
+
+int main()
+{
+    for(c=0; c<101;c=c+2)
+        {printf( "%d\n",c);
+        }
+        
+    
+
+    return 0;
+}
