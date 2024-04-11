@@ -1,0 +1,16 @@
+//Ejercicio 10//
+#include <stdio.h>
+int c,x;
+
+int main()
+{   
+    printf("Ingrese el numero a consultar\n");
+    scanf("%d", &c);
+    if ((c%2)==0)  //el % es para resto//
+        printf("Es Par\n");
+    else    
+        printf("Es Impar\n");
+        
+
+    return 0;
+}
