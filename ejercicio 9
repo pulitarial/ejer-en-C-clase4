@@ -1,0 +1,20 @@
+*******************************************************************************/
+//Ejercicio 9//
+#include <stdio.h>
+int c,x;
+
+int main()
+{   
+    printf("Para Verdadero Ingrese 1, falso 0\n");
+    printf("Introdusca una el numero\n");
+    scanf("%d", &c);
+    if (c==1)
+        printf("Es Positivo\n");
+    else if (c==0)
+        printf("Es negativo\n");
+    else    
+        printf("Opción incorrecta\n");
+        
+
+    return 0;
+}
