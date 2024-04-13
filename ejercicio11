@@ -1,0 +1,21 @@
+//EJERCICIO 11//
+#include <stdio.h>
+int a=-3;
+int b=0;
+int c=0;
+
+int main()
+{
+    printf("ingrese numero hasta el cual contaremos\n");
+    scanf("%d",&b);
+    printf("Ingreso limite %d\n", b);
+    do  {a=a+3;
+        if (a%3);
+            {printf("%d\n", a);
+            c=c+1;}
+    }
+    while (a<=b);
+    
+    printf("ingresamos %d numeros multiplos de 3\n", c);
+    return 0;
+}
